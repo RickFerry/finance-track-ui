@@ -14,6 +14,7 @@ import {LancamentosPesquisaComponent} from './lancamentos-pesquisa/lancamentos-p
 import {NavbarComponent} from './navbar/navbar.component';
 import {PessoasPesquisaComponent} from './pessoas-pesquisa/pessoas-pesquisa.component';
 import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
+import {DropdownModule} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
     TooltipModule,
     InputTextareaModule,
     CalendarModule,
-    SelectButtonModule
+    SelectButtonModule,
+    DropdownModule
   ],
   providers: [],
   bootstrap: [AppComponent]
