@@ -15,6 +15,7 @@ import {NavbarComponent} from './navbar/navbar.component';
 import {PessoasPesquisaComponent} from './pessoas-pesquisa/pessoas-pesquisa.component';
 import {SelectButtonModule} from 'primeng/components/selectbutton/selectbutton';
 import {DropdownModule} from 'primeng/primeng';
+import {CurrencyMaskModule} from 'ng2-currency-mask';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import {DropdownModule} from 'primeng/primeng';
     InputTextareaModule,
     CalendarModule,
     SelectButtonModule,
-    DropdownModule
+    DropdownModule,
+    CurrencyMaskModule
   ],
   providers: [],
   bootstrap: [AppComponent]
